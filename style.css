@@ -1,0 +1,33 @@
+body{
+    /* display: flex; */
+    align-items: center;
+    justify-content: space-between;
+}
+#container {
+    display: flex;   
+    width: 500px;
+    height:500px;
+    background-color:lightblue;
+    border-color: black;
+    border-width: 10px;
+    flex: 1;
+    padding: 10px;
+}
+
+.gridBoxColumn {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.gridBoxRow {
+    flex: 1;
+    display: flex;
+    background-color: white;
+    border: solid 1px;  
+    cursor: pointer;
+}
+
+.gridBoxRow:hover {
+    background-color: #555555;
+}
