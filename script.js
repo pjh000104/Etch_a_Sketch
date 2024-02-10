@@ -5,7 +5,7 @@ const GridSizeBtn = document.querySelector('#GridSizeBtn');
 const GridSize = 16;
 
 GridSizeBtn.addEventListener('click', () => {
-   GridSize = prompt("hello");
+   GridSize = prompt("abc");
 });
 
 function makeGrid1() {
